@@ -7,7 +7,12 @@
 Таблица **country** - справочник с названиями стран, аббревиатурами и географическим расположением столиц ( latitude / longitude )  
 Поля  
 `id integer PRIMARY KEY,     - Уникальный код страны`<br/>  	
-`code char(3) NOT NULL,      - Уникальный код страны`<br/>
-`name varchar(96) NOT NULL,  - Уникальный код страны`<br/>
-`latitude float,             - Уникальный код страны`<br/>
-`longitude float             - Уникальный код страны`<br/>
+`code char(3) NOT NULL,      - Трехбуквенная аббревиатура названия страны`<br/>
+`name varchar(96) NOT NULL,  - Полное название страны`<br/>
+`latitude float,             - Долгота`<br/>
+`longitude float             - Широта`<br/>
+
+
+Таблица **goods** - справочник с перечнем производимой продуктовой продукции  
+`id integer PRIMARY KEY,    - Уникальный код наименования`<br/>
+`name varchar(96) NOT NULL  - Описание наименования`<br/>
