@@ -1,16 +1,16 @@
--- Запрос 1: Количество стран-производителей продуктов питания
+-- Р—Р°РїСЂРѕСЃ 1: РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂР°РЅ-РїСЂРѕРёР·РІРѕРґРёС‚РµР»РµР№ РїСЂРѕРґСѓРєС‚РѕРІ РїРёС‚Р°РЅРёСЏ
 select count(*) as countries from country;
 
--- Запрос 2: Общее количество произведенных продуктов питания и кормов ( в 1000 тонн ) за все время
+-- Р—Р°РїСЂРѕСЃ 2: РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРёР·РІРµРґРµРЅРЅС‹С… РїСЂРѕРґСѓРєС‚РѕРІ РїРёС‚Р°РЅРёСЏ Рё РєРѕСЂРјРѕРІ ( РІ 1000 С‚РѕРЅРЅ ) Р·Р° РІСЃРµ РІСЂРµРјСЏ
 select sum(qty) as total_goods from ffhistory;
 
--- Запрос 3: Общее количество перечня продуктов питания и кормов 
+-- Р—Р°РїСЂРѕСЃ 3: РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїРµСЂРµС‡РЅСЏ РїСЂРѕРґСѓРєС‚РѕРІ РїРёС‚Р°РЅРёСЏ Рё РєРѕСЂРјРѕРІ 
 select count(distinct goods.name) as dict_num from goods;
 
--- Запрос 4: Статистика по производству за сколько лет
+-- Р—Р°РїСЂРѕСЃ 4: РЎС‚Р°С‚РёСЃС‚РёРєР° РїРѕ РїСЂРѕРёР·РІРѕРґСЃС‚РІСѓ Р·Р° СЃРєРѕР»СЊРєРѕ Р»РµС‚
 select count(distinct ffhistory.year) as years_total from ffhistory;
 
--- Запрос 5: Подсчитать количество произведенного молока за 2013 год
+-- Р—Р°РїСЂРѕСЃ 5: РџРѕРґСЃС‡РёС‚Р°С‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРёР·РІРµРґРµРЅРЅРѕРіРѕ РјРѕР»РѕРєР° Р·Р° 2013 РіРѕРґ
 select sum(ff.qty) as Milk_2013
     from ffhistory ff
         join goods g on ff.gid=g.id
@@ -18,7 +18,7 @@ select sum(ff.qty) as Milk_2013
         g.name like 'Milk%' and
         ff.year=2013;
 
--- Запрос 6: Вывести топ-5 стран, не производящих корма
+-- Р—Р°РїСЂРѕСЃ 6: Р’С‹РІРµСЃС‚Рё С‚РѕРї-5 СЃС‚СЂР°РЅ, РЅРµ РїСЂРѕРёР·РІРѕРґСЏС‰РёС… РєРѕСЂРјР°
 select c.name as country_no_feed
     from ffhistory ff
         join goods g on ff.gid=g.id
@@ -30,7 +30,7 @@ select c.name as country_no_feed
         having sum(ff.qty) = 0
     limit 5;
 
--- Запрос 7: Вывести топ-5 производителей продуктов питания за все время
+-- Р—Р°РїСЂРѕСЃ 7: Р’С‹РІРµСЃС‚Рё С‚РѕРї-5 РїСЂРѕРёР·РІРѕРґРёС‚РµР»РµР№ РїСЂРѕРґСѓРєС‚РѕРІ РїРёС‚Р°РЅРёСЏ Р·Р° РІСЃРµ РІСЂРµРјСЏ
 select c.name, sum(ff.qty) as total_food
     from ffhistory ff
         join goods g on ff.gid=g.id
@@ -41,7 +41,7 @@ select c.name, sum(ff.qty) as total_food
     group by ff.cid,c.name
     order by total_food desc limit 5;
     
--- Запрос 8: Вывести топ-15 производителей масла по годам
+-- Р—Р°РїСЂРѕСЃ 8: Р’С‹РІРµСЃС‚Рё С‚РѕРї-15 РїСЂРѕРёР·РІРѕРґРёС‚РµР»РµР№ РјР°СЃР»Р° РїРѕ РіРѕРґР°Рј
 select c.name, sum(ff.qty) as total_food, ff.year 
     from ffhistory ff
         join goods g on ff.gid=g.id
@@ -53,7 +53,7 @@ select c.name, sum(ff.qty) as total_food, ff.year
     group by ff.cid,c.name,ff.year
     order by total_food desc limit 15;
 
--- Запрос 9: Для стран экватора вывести топ-3 производителей банановых кормов
+-- Р—Р°РїСЂРѕСЃ 9: Р”Р»СЏ СЃС‚СЂР°РЅ СЌРєРІР°С‚РѕСЂР° РІС‹РІРµСЃС‚Рё С‚РѕРї-3 РїСЂРѕРёР·РІРѕРґРёС‚РµР»РµР№ Р±Р°РЅР°РЅРѕРІС‹С… РєРѕСЂРјРѕРІ
 select c.name, sum(ff.qty) as total_food
     from ffhistory ff
         join goods g on ff.gid=g.id
@@ -66,7 +66,7 @@ select c.name, sum(ff.qty) as total_food
     group by ff.cid,c.name
     order by total_food desc limit 3;
 
--- Запрос 10: Что больше всего производят в странах латинской америки
+-- Р—Р°РїСЂРѕСЃ 10: Р§С‚Рѕ Р±РѕР»СЊС€Рµ РІСЃРµРіРѕ РїСЂРѕРёР·РІРѕРґСЏС‚ РІ СЃС‚СЂР°РЅР°С… Р»Р°С‚РёРЅСЃРєРѕР№ Р°РјРµСЂРёРєРё
 select g.name, sum(ff.qty) as total_food
     from 
 	(select * from ffhistory join country on ffhistory.cid=country.id 
@@ -79,11 +79,11 @@ select g.name, sum(ff.qty) as total_food
     group by g.name
     order by total_food desc limit 5;
 
--- Представление на основе запроса 2
+-- РџСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ РЅР° РѕСЃРЅРѕРІРµ Р·Р°РїСЂРѕСЃР° 2
 create or replace view total_goods as
 select sum(qty) as total_goods from ffhistory;
 
--- Представление на основе запроса 7
+-- РџСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ РЅР° РѕСЃРЅРѕРІРµ Р·Р°РїСЂРѕСЃР° 7
 create or replace view top_5_prod as
 select c.name, sum(ff.qty) as total_food
     from ffhistory ff
