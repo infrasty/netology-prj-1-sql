@@ -1,0 +1,175 @@
+Area Code;Area;Area Abbreviation;latitude;longitude
+2;Afghanistan;AFG;33.94;67.71
+3;Albania;ALB;41.15;20.17
+4;Algeria;DZA;28.03;1.66
+7;Angola;AGO;-11.2;17.87
+8;Antigua and Barbuda;ATG;17.06;-61.8
+9;Argentina;ARG;-38.42;-63.62
+1;Armenia;ARM;40.07;45.04
+10;Australia;AUS;-25.27;133.78
+11;Austria;AUT;47.52;14.55
+52;Azerbaijan;AZE;40.14;47.58
+12;Bahamas;AZE;25.03;-77.4
+16;Bangladesh;BGD;23.68;90.36
+14;Barbados;BRB;13.19;-59.54
+57;Belarus;BLR;53.71;27.95
+255;Belgium;BEL;50.5;4.47
+23;Belize;BLZ;17.19;-88.5
+53;Benin;BEN;9.31;2.32
+17;Bermuda;BMU;32.32;-64.76
+19;Bolivia (Plurinational State of);BOL;-16.29;-63.59
+80;Bosnia and Herzegovina;BIH;43.92;17.68
+20;Botswana;BWA;-22.33;24.68
+21;Brazil;BRA;-14.24;-51.93
+26;Brunei Darussalam;BRN;4.54;114.73
+27;Bulgaria;BGR;42.73;25.49
+233;Burkina Faso;BFA;12.24;-1.56
+35;Cabo Verde;CPV;16;-24.01
+115;Cambodia;KHM;12.57;104.99
+32;Cameroon;CMR;7.37;12.35
+33;Canada;CAN;56.13;-106.35
+37;Central African Republic;CAF;6.61;20.94
+39;Chad;TCD;15.45;18.73
+40;Chile;CHL;-35.68;-71.54
+96;China, Hong Kong SAR;CHN;22.4;114.11
+128;China, Macao SAR;CHN;22.2;113.54
+41;China, mainland;CHN;35.86;104.2
+214;China, Taiwan Province of;CHN;23.7;120.96
+44;Colombia;COL;4.57;-74.3
+46;Congo;COD;-0.23;15.83
+48;Costa Rica;CRI;9.75;-83.75
+107;Cote d'Ivoire;CIV;7.54;-5.55
+98;Croatia;HRV;45.1;15.2
+49;Cuba;CUB;21.52;-77.78
+50;Cyprus;CYP;35.13;33.43
+167;Czechia;CZE;49.82;15.47
+116;Democratic People's Republic of Korea;KOR;40.34;127.51
+54;Denmark;DNK;56.26;9.5
+72;Djibouti;DJI;11.83;42.59
+55;Dominica;DMA;15.41;-61.37
+56;Dominican Republic;DOM;18.74;-70.16
+58;Ecuador;ECU;-1.83;-78.18
+59;Egypt;EGY;26.82;30.8
+60;El Salvador;SLV;13.79;-88.9
+63;Estonia;EST;58.6;25.01
+238;Ethiopia;ETH;9.15;40.49
+66;Fiji;FJI;-16.58;179.41
+67;Finland;FIN;61.92;25.75
+68;France;FRA;46.23;2.21
+70;French Polynesia;PYF;-17.68;-149.41
+74;Gabon;GAB;-0.8;11.61
+75;Gambia;GMB;13.44;-15.31
+73;Georgia;GEO;42.32;43.36
+79;Germany;DEU;51.17;10.45
+81;Ghana;GHA;7.95;-1.02
+84;Greece;GRC;39.07;21.82
+86;Grenada;GRD;12.26;-61.6
+89;Guatemala;GTM;15.78;-90.23
+90;Guinea;GIN;9.95;-9.7
+175;Guinea-Bissau;GNB;11.8;-15.18
+91;Guyana;GUY;4.86;-58.93
+93;Haiti;HTI;18.97;-72.29
+95;Honduras;HND;15.2;-86.24
+97;Hungary;HUN;47.16;19.5
+99;Iceland;ISL;64.96;-19.02
+100;India;IND;20.59;78.96
+101;Indonesia;IDN;-0.79;113.92
+102;Iran (Islamic Republic of);IRN;32.43;53.69
+103;Iraq;IRQ;33.22;43.68
+104;Ireland;IRL;53.41;-8.24
+105;Israel;ISR;31.05;34.85
+106;Italy;ITA;41.87;12.57
+109;Jamaica;JAM;18.11;-77.3
+110;Japan;JPN;36.2;138.25
+112;Jordan;JOR;30.59;36.24
+108;Kazakhstan;KAZ;48.02;66.92
+114;Kenya;KEN;-0.02;37.91
+83;Kiribati;KIR;-3.37;-168.73
+118;Kuwait;KWT;29.31;47.48
+113;Kyrgyzstan;KGZ;41.2;74.77
+120;Lao People's Democratic Republic;LAO;19.86;102.5
+119;Latvia;LVA;56.88;24.6
+121;Lebanon;LBN;33.85;35.86
+122;Lesotho;LSO;-29.61;28.23
+123;Liberia;LBR;6.43;-9.43
+126;Lithuania;LTU;55.17;23.88
+256;Luxembourg;LUX;49.82;6.13
+129;Madagascar;MDG;-18.77;46.87
+130;Malawi;MWI;-13.25;34.3
+131;Malaysia;MYS;4.21;101.98
+132;Maldives;MDV;3.2;73.22
+133;Mali;MLI;17.57;-4
+134;Malta;MLT;35.94;14.38
+136;Mauritania;MRT;21.01;-10.94
+137;Mauritius;MUS;-20.35;57.55
+138;Mexico;MEX;23.63;-102.55
+141;Mongolia;MNG;46.86;103.85
+273;Montenegro;MNE;42.71;19.37
+143;Morocco;MAR;31.79;-7.09
+144;Mozambique;MOZ;-18.67;35.53
+28;Myanmar;MMR;21.91;95.96
+147;Namibia;NAM;-22.96;18.49
+149;Nepal;NPL;28.39;84.12
+150;Netherlands;NLD;52.13;5.29
+153;New Caledonia;NCL;-20.9;165.62
+156;New Zealand;NZL;-40.9;174.89
+157;Nicaragua;NIC;12.87;-85.21
+158;Niger;NER;17.61;8.08
+159;Nigeria;NGA;9.08;8.68
+162;Norway;NOR;60.47;8.47
+221;Oman;OMN;21.51;55.92
+165;Pakistan;PAK;30.38;69.35
+166;Panama;PAN;8.54;-80.78
+169;Paraguay;PRY;-23.44;-58.44
+170;Peru;PER;-9.19;-75.02
+171;Philippines;PHL;12.88;121.77
+173;Poland;POL;51.92;19.15
+174;Portugal;PRT;39.4;-8.22
+117;Republic of Korea;QAT;35.91;127.77
+146;Republic of Moldova;MDA;47.41;28.37
+183;Romania;ROU;45.94;24.97
+185;Russian Federation;RUS;61.52;105.32
+184;Rwanda;RWA;-1.94;29.87
+188;Saint Kitts and Nevis;KNA;17.36;-62.78
+189;Saint Lucia;LCA;13.91;-60.98
+191;Saint Vincent and the Grenadines;VCT;12.98;-61.29
+244;Samoa;WSM;-13.76;-172.1
+193;Sao Tome and Principe;STP;0.19;6.61
+194;Saudi Arabia;SAU;23.89;45.08
+195;Senegal;SEN;14.5;-14.45
+272;Serbia;SRB;44.02;21.01
+197;Sierra Leone;SLE;8.46;-11.78
+199;Slovakia;SVK;48.67;19.7
+198;Slovenia;SVN;46.15;15
+25;Solomon Islands;SLB;-9.65;160.16
+202;South Africa;ZAF;-30.56;22.94
+203;Spain;ESP;40.46;-3.75
+38;Sri Lanka;LKA;7.87;80.77
+276;Sudan;SDN;12.86;30.22
+207;Suriname;SUR;3.92;-56.03
+209;Swaziland;SWZ;-26.52;31.47
+210;Sweden;SWE;60.13;18.64
+211;Switzerland;CHE;46.82;8.23
+208;Tajikistan;TJK;38.86;71.28
+216;Thailand;THA;15.87;100.99
+154;The former Yugoslav Republic of Macedonia;THA;41.61;21.75
+176;Timor-Leste;TLS;-8.87;125.73
+217;Togo;TGO;8.62;0.82
+220;Trinidad and Tobago;TTO;10.69;-61.22
+222;Tunisia;TUN;33.89;9.54
+223;Turkey;TUR;38.96;35.24
+213;Turkmenistan;TKM;38.97;59.56
+226;Uganda;UGA;1.37;32.29
+230;Ukraine;UKR;48.38;31.17
+225;United Arab Emirates;ARE;23.42;53.85
+229;United Kingdom;GBR;55.38;-3.44
+215;United Republic of Tanzania;TZA;-6.37;34.89
+231;United States of America;USA;37.09;-95.71
+234;Uruguay;URY;-32.52;-55.77
+235;Uzbekistan;UZB;41.38;64.59
+155;Vanuatu;VUT;-15.38;166.96
+236;Venezuela (Bolivarian Republic of);VEN;6.42;-66.59
+237;Viet Nam;VNM;14.06;108.28
+249;Yemen;YEM;15.55;48.52
+251;Zambia;ZMB;-13.13;27.85
+181;Zimbabwe;ZWE;-19.02;29.15

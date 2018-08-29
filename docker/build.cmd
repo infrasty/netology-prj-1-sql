@@ -1,0 +1,1 @@
+docker-compose --project-name prj-sql-1 -f docker-compose.yml up --build -d
