@@ -6,8 +6,8 @@
 
 Таблица **country** - справочник с названиями стран, аббревиатурами и географическим расположением столиц ( latitude / longitude )  
 Поля  
-`id integer PRIMARY KEY,     - Уникальный код страны`  	
-`code char(3) NOT NULL,      - Уникальный код страны`  
-`name varchar(96) NOT NULL,  - Уникальный код страны`  
-`latitude float,             - Уникальный код страны`  	
-`longitude float             - Уникальный код страны`  
+`id integer PRIMARY KEY,     - Уникальный код страны`<br/>  	
+`code char(3) NOT NULL,      - Уникальный код страны`<br/>
+`name varchar(96) NOT NULL,  - Уникальный код страны`<br/>
+`latitude float,             - Уникальный код страны`<br/>
+`longitude float             - Уникальный код страны`<br/>
